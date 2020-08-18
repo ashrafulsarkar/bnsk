@@ -1,0 +1,759 @@
+/*
+  Theme Name: BNSK
+  Author: Ashraful Sarkar
+  Support: ashrafulsarkar47@gmail.com
+  Description: BNSK Full Website.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header area
+3. slider area
+4. help area
+5. section title area
+6. weare area
+7. mission area
+8. we-work area
+9. resent area
+10. counter-area start
+11. testiamonial area
+12. brand area
+13. page title area
+14. contact page area
+15. footer area
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #333e48;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.fix {
+    overflow: hidden
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    color: #d40e85;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: #333e48;
+    outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #393542;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #333e48;
+    margin-bottom: 15px;
+}
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+label {
+    color: #444;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+*::placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+.bg-area {
+    background: #efefef;
+}
+/* button style */
+.btn {
+    background-image: -moz-linear-gradient(178deg, rgb(212, 100, 167) 0%, rgb(212, 14, 133) 100%);
+    background-image: -webkit-linear-gradient(178deg, rgb(212, 100, 167) 0%, rgb(212, 14, 133) 100%);
+    background-image: -ms-linear-gradient(178deg, rgb(212, 100, 167) 0%, rgb(212, 14, 133) 100%);
+    border: medium none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 17px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: none;
+}
+
+.btn-border {
+    border-color: #fff;
+    background: transparent;
+}
+
+.btn-border:hover {
+    background: #fff;
+    color: #ff62a3;
+}
+
+
+/* 2. header area */
+/* header top area */
+.header-top {
+    padding: 10px 0;
+    border-bottom: 1px solid #ffadc5;
+}
+.top-contact a {
+    font-size: 14px;
+    margin-right: 15px;
+}
+.top-contact a i {
+    color: #d40e85;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.top-social-bar {
+    float: right;
+}
+.office-time {
+    float: left;
+}
+.social-top-icon {
+    float: left;
+    margin-left: 20px;
+}
+.office-time p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+}
+.social-top-icon {
+    text-align: center;
+}
+.social-top-icon a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333e48;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.social-top-icon a:hover{
+    border-color: #d40e85;
+}
+/* header midile area */
+.header-midile {
+    padding: 20px 0;
+}
+.header-midile .logo {
+    width: 200px;
+}
+.header-midile .logo img {
+    width: 100%;
+}
+.top-contact-btn {
+    width: 100%;
+    text-align: right;
+}
+/* header bottom area */
+.header-bottom {
+    background: #d40e85;
+}
+.header-menu {
+    border-bottom: 1px solid #fff;
+}
+.letest-news {
+    padding: 8px 0;
+}
+.news-title h4 {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.letest-news marquee a {
+    color: #fff;
+    margin-right: 20px;
+}
+.letest-news marquee a:hover{
+    color: #dedede;
+}
+/* header area */
+/* 3. slider area */
+.single-item {
+    position: relative;
+    padding: 200px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single-item::before {
+    position: absolute;
+    content: '';
+    background: #0000009c;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.slider-text h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+.slider-text p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+button.slick-arrow {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+    height: 65px;
+    width: 65px;
+    bottom: 0;
+    margin: auto;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+button.slick-prev.slick-arrow {
+    left: -85%;
+}
+button.slick-next.slick-arrow {
+    right: -85%;
+}
+ul.slick-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    text-align: center;
+}
+ul.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+ul.slick-dots li button {
+    text-indent: -100000px;
+    width: 15px;
+    height: 15px;
+    line-height: 1;
+    border-radius: 50%;
+    border: 2px solid #d40e85;
+    background: none;
+}
+ul.slick-dots li.slick-active button {
+    background: #d40e85;
+}
+/* slider area */
+/* 4. help area */
+section#help {
+    background: #d40e85;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.help-content h2 {
+    margin: 0;
+    padding: 35px 0;
+    color: #fff;
+    position: relative;
+}
+.help-content .dnt-btn {
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    right: 0;
+}
+.help-content .dnt-btn a.btn-donate {
+    border: 2px solid #fff;
+}
+/* help area */
+/* 5. section title area */
+.section-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title h2::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 140px;
+    background: #d40e85;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.section-text p {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+/* section title area */
+/* 6. weare area */
+
+.weare-img img {
+    width: 100%;
+}
+.weare-text p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 32px;
+    line-height: 26px;
+}
+.weare-btn {
+    text-align: center;
+}
+/* weare area */
+/* 7. mission area */
+.weare-text ul li {
+    list-style: circle;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.weare-text ul {
+    margin-bottom: 70px;
+}
+/* mission area */
+/* 8. we-work area */
+.wrapper-box {
+    padding: 30px;
+    background: #efefef;
+    border-radius: 10px;
+    text-align: center;
+}
+.wrapper-icon i {
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #d40e85;
+    color: #fff;
+    border-radius: 50%;
+}
+.wrapper-title h3 {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.wrapper-text p {
+    margin-bottom: 0;
+}
+/* we-work area */
+/* 9. resent area */
+.project-wrappers {
+    position: relative;
+}
+.project-wrappers:hover .portfolio-content {
+    opacity: 1;
+    visibility: visible;
+}
+.project-img img {
+    width: 100%;
+}
+.project-img::before {
+    background: #333e48;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.project-wrappers:hover .project-img::before {
+    opacity: 0.85;
+    visibility: visible;
+}
+.portfolio-content .icon i {
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.portfolio-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.portfolio-content span {
+    font-size: 13px;
+    color: #fff;
+}
+.project-menu button {
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: #333e48;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 0 3px;
+    transition: 0.3s;
+}
+.project-menu button:hover, .project-menu button.active {
+    background: #d40e85;
+    color: #fff;
+}
+.portfolio-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50px);
+    text-align: center;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+/* resent area */
+/* 10. counter-area start */
+.counter-area {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.single-counter span {
+    font-size: 45px;
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+}
+.single-counter p {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+.single-counter.counter-2 span {
+    font-size: 72px;
+    margin-top: 0;
+    line-height: 1;
+}
+.single-counter.counter-2 p {
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* counter-area end */
+/* 11. testiamonial area */
+.testiamonial-area {
+    background-image: -moz-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+    background-image: -webkit-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+    background-image: -ms-linear-gradient(-51deg, rgb(47, 50, 212) 0%, rgb(113, 66, 247) 100%);
+    min-height: 1040px;
+    width: 100%;
+    padding-top: 390px;
+}
+.testiamonial-title h2 {
+    color: #333e48;
+}
+.test-items p {
+    font-size: 18px;
+    line-height: 35px;
+    color: #333e48;
+    margin-bottom: 5px;
+}
+.test-items span {
+    color: #333e48;
+    font-size: 18px;
+    line-height: 48px;
+}
+.testmonial-all-items ul.slick-dots {
+    bottom: -35px;
+}
+/* testiamonial area */
+/* 12. brand area */
+.brand-slider-active .slick-slide img {
+    display: inline-block;
+}
+.brand-items {
+    text-align: center;
+}
+/* brand area */
+/* 13. page title area */
+.page-title-area{
+    position: relative;
+}
+.page-title-area::before {
+    position: absolute;
+    content: '';
+    background: #000000a6;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.page-title h1 {
+    font-size: 72px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.page-title nav ol.breadcrumb {
+    justify-content: center;
+    padding: 0;
+    background: none;
+    margin: 0;
+}
+.page-title nav ol li.breadcrumb-item a {
+    color: #ffffff;
+    font-size: 17px;
+}
+.page-title nav ol li.breadcrumb-item.active {
+    color: #c5c5c5;
+}
+.page-title nav ol li.breadcrumb-item+.breadcrumb-item::before {
+    color: #ffffff;
+}
+/* page title area */
+/* mission page */
+#mission-content .weare-text ul li {
+    margin-left: 20px;
+}
+/* mission page */
+/* 14. contact page area */
+.contact-form {
+    padding: 60px 40px;
+}
+.contact-form > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.contact-form input {
+    height: 60px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #cccccf;
+    margin-bottom: 40px;
+    font-size: 13px;
+    color: #333;
+    width: 100%;
+}
+.contact-form textarea {
+    background: none;
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid #cccccf;
+    margin-bottom: 40px;
+    resize: none;
+}
+.contact-info {
+    padding: 60px 45px;
+    border: 1px solid #f2f2f2;
+}
+.contact-info span {
+    font-size: 17px;
+    color: #646464;
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-info h2 {
+    font-size: 40px;
+    color: #414149;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.conact-meta h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.conact-meta p {
+    margin-bottom: 5px;
+}
+/* contact page area */
+/* 15. footer area */
+footer#footer-area {
+    
+}
+.footer-top{
+    background: #333e48eb;
+}
+.footer-bottom{
+    padding: 20px 0;
+    background: #333e48;
+}
+.footer-bottom p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+}
+.footer-bottom p a{
+    color: #fff;
+    font-weight: 600;
+}
+.footer-title h2 {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.footer-title h2::before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 2px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+}
+.footer-nav ul li {
+    padding: 7px 0;
+}
+.footer-nav ul li a {
+    color: #fff;
+}
+.footer-nav ul li a:hover {
+    color: #c7c7c7;
+}
+.footer-nav ul li .foot-cont-icon {
+    float: left;
+}
+.footer-nav ul li .foot-cont-icon i {
+    color: #c7c7c7;
+}
+.cont-info {
+    margin-left: 30px;
+}
+/* footer area */

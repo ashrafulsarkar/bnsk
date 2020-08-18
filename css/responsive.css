@@ -1,0 +1,157 @@
+/* Large desktop :1200px. */
+@media (min-width: 1200px) {
+    .wrapper-text p {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-counter p {
+        font-size: 10px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .btn {
+        font-size: 13px;
+        padding: 15px 30px;
+    }
+    /* header area */
+    .social-top-icon {
+        margin-left: 0px;
+    }
+    .top-contact a {
+        display: block;
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .social-top-icon a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .header-midile .logo {
+        width: 140px;
+    }
+    .top-contact-btn .btn {
+        font-size: 12px;
+        padding: 12px 19px;
+    }
+    .news-title h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .letest-news marquee a {
+        font-size: 14px;
+    }
+    /* header area */
+    /* slider area */
+    .single-item {
+        padding: 80px 0;
+    }
+    .slider-text h2 {
+        font-size: 35px;
+    }
+    .slider-text p {
+        font-size: 14px;
+    }
+    /* slider area */
+    /* help area */
+    .help-content h2 {
+        padding: 20px 0;
+        font-size: 25px;
+    }
+    .help-content .dnt-btn {
+        bottom: -43px;
+    }
+    .help-content .dnt-btn a.btn-donate {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    /* help area */
+    /* weare area */
+    section#weare-area {
+        padding: 70px 0;
+    }
+    .section-title h2 {
+        font-size: 25px;
+    }
+    .section-text p {
+        width: auto;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .section-text {
+        padding-bottom: 30px;
+    }
+    .weare-text p {
+        margin-bottom: 40px;
+        line-height: 22px;
+    }
+    /* weare area */
+    /* mission area */
+    section#our-mission {
+        padding: 60px 0;
+    }
+    .weare-text ul li {
+        margin-bottom: 10px;
+        margin-left: 12px;
+        font-size: 14px;
+    }
+    /* mission area */
+    /* vission area */
+    section#vission-area {
+        padding: 60px 0;
+    }
+    .wrapper-box {
+        padding: 20px 10px;
+    }
+    .wrapper-icon i {
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .wrapper-title h3 {
+        font-size: 20px;
+    }
+    .wrapper-text p {
+        font-size: 14px;
+    }
+    /* vission area */
+    /* recent area */
+    .project-menu button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    /* recent area */
+    /* title area */
+    .section-title {
+        margin-bottom: 30px;
+    }
+    .test-items p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .test-items span {
+        font-size: 15px;
+    }
+    /*page title area*/
+    .page-title h1 {
+        font-size: 38px;
+        line-height: 28px;
+    }
+    .page-title nav ol li.breadcrumb-item a {
+        font-size: 14px;
+    }
+}
+/* Large Mobile :576px. */
+@media (min-width: 576px) and (max-width: 767px) {}
